@@ -1,0 +1,120 @@
+* , html {
+    margin: 0;
+    padding: 0;
+}
+.bungkus-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.li-navbar:hover {
+    background-color: slateblue;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(151,65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: rgba(151,65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF,#5B42F3 50%,#00DDEB);
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.bungkus-content {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.a-content {
+    overflow: hidden;
+    overflow: auto;
+    position: relative;
+    transform: rotateX(45deg);
+	animation: anim 1.5s ease-out forwards;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 480px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px black;
+    -webkit-box-shadow: 10px 10px 5px 0px black;
+    -moz-box-shadow: 10px 10px 5px 0px black;
+    
+}
+
+@keyframes anim {
+    to {
+        transform: rotateX(0deg);
+        height: 400px;
+    }
+}
+
+@keyframes anim2 {
+    to {
+        margin: 5px 0;
+    }
+}
+.a-content:hover {
+    background-color: slateblue;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 80px;
+    -webkit-box-shadow: rgba(151,65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: rgba(151,65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF,#5B42F3 50%,#00DDEB);
+    box-shadow: 10px 10px 5px 0px black;
+    -webkit-box-shadow: 10px 10px 5px 0px black;
+    -moz-box-shadow: 10px 10px 5px 0px black;
+}
+
+.img-content {
+    width: 30%;
+    height: 30%;
+}
+
+.paragraf {
+    
+}
+
+.bungkus-footer {
+height: 10vh;
+background-color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.h1-footer {
+    color: whitesmoke;
+    font-size: 40px;
+}
